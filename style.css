@@ -87,6 +87,25 @@
     background-color: #f3f4f6;
 }
 
+.sidebar.night {
+    background-color: #312e81;
+    color: #b4bbc7;
+}
+  
+.list-item.night.active {
+    background-color: #4338ca;
+}
+  
+.sidebar.light {
+    background-color: #f3f4f6;
+    color: #111827;
+ }
+  
+.list-item.light.active {
+    background-color: #d1d5db;
+    color: #111827;
+}
+
 @media only screen and (max-width: 768px){
     .sidebar{
         width: 50px;
