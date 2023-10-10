@@ -7,15 +7,15 @@ const activeListItem = document.querySelector(".list-item.active");
 dark.addEventListener("click", () => {
     sidebar.className = "sidebar";
     activeListItem.className = "list-item active";
-  });
+});
   
-  night.addEventListener("click", () => {
+night.addEventListener("click", () => {
       sidebar.className = "sidebar night";
       activeListItem.className = "list-item night active";
-  });
+});
   
-  light.addEventListener("click", () => {
+light.addEventListener("click", () => {
       sidebar.className = "sidebar light";
       activeListItem.className = "list-item light active";
-  });
+});
   
